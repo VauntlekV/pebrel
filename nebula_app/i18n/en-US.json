@@ -17,6 +17,11 @@
     "en_us": "English"
   },
   "settings": {
+    "split_shell_source": "Split shell source",
+    "split_shell_source_description": "Default uses the configured default shell and inherits only a host directory. Focused follows the current pane’s Shell, Profile or SSH identity. Ask opens the launcher for each split. Applies immediately to split shortcuts; Escape cancels without creating a pane.",
+    "split_shell_source_focused": "Focused pane",
+    "split_shell_source_default": "Default shell",
+    "split_shell_source_ask": "Ask each time",
     "completion": {
       "mode": "Completion mode",
       "cycle": "Cycle completion mode",
@@ -1023,6 +1028,7 @@
     "settings_shortcut": "Settings (Ctrl+,)"
   },
   "workspace": {
+    "split_failed": "Could not create split: {error}",
     "pane": {
       "rename_hint": "Double-click to rename; Enter or click outside to save, Esc to cancel. Clear for an automatic title. Reopen to undo a saved name.",
       "stop_broadcast_input": "Stop broadcasting input",
